@@ -3,9 +3,9 @@
 using namespace std;
 
 struct carData{
-  int carNum;
-  int miles;
-  int gallons;
+  double carNum;
+  double miles;
+  double gallons;
 }; 
 
 const int NumofThings = 5;
@@ -14,7 +14,7 @@ int main() {
   carData data[NumofThings];
 
   for (int i = 0; i < NumofThings; i++){  
-    cin >> data[i].carNum;
+    cin >> data[i].carNum >> data[i].miles >> data[i].gallons;
     }
 
   
