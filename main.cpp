@@ -17,5 +17,12 @@ int main() {
     cin >> data[i].carNum >> data[i].miles >> data[i].gallons;
     }
 
+  for (int i = 0; i < NumofThings; i++){
+
+    
+    
+    cout << data[i].carNum;
+    cout << 
+  }
   
 }
