@@ -19,10 +19,10 @@ int main() {
 
   for (int i = 0; i < NumofThings; i++){
 
+    double mpg = data[i].miles / data[i].gallons;
     
-    
-    cout << data[i].carNum;
-    cout << 
+    cout << "Car Number: " << data[i].carNum << endl;
+    cout << "Miles per Gallon: " << mpg << endl << endl;
   }
   
 }
